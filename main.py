@@ -8,7 +8,7 @@ answers=[]
 len_quiz=len(quiz)
 for i in range(len_quiz):
   answer=st.text_input(quiz[i],'')
-  if answsers != '':
+  if answers != '':
     answers.append(answer)
 if st.button('Confirm'):
   if len(answers)==len_quiz:
