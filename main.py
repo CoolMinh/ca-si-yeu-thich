@@ -15,8 +15,8 @@ Với sự sáng tạo không ngừng, Tyler The Creator là biểu tượng c�
     audio=open('Answer - Tyler, The Creator.mp3','rb')
     st.audio(audio,format='audio/mp3')
     st.write('New magic wand')
-    audio=open('Tyler, The Creator - NEW MAGIC WAND (feat. Santigold & Jessy Wilson)','rb')
-    st.audio(audio,format='audio/mp3
+    audio=open('Tyler, The Creator - NEW MAGIC WAND (feat. Santigold & Jessy Wilson).mp3','rb')
+    st.audio(audio,format='audio/mp3')
     st.write('Sweet/I thought you wanted to dance')
     audio=open('SWEET - I THOUGHT YOU WANTED TO DANCE(Audio).mp3','rb')
     st.audio(audio,format='audio/mp3')
