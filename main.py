@@ -1,39 +1,27 @@
-
 import streamlit as st
 
-st.title('Điền thông tin giới thiệu bản thân em')
+with st.sidebar:
+    image='https://media.cnn.com/api/v1/images/stellar/prod/200127063956-tyler-the-creator-grammy.jpg?q=x_3,y_3,h_1684,w_2993,c_crop/h_653,w_1160/f_avif'
+    st.image(image,caption='Tyler,the creator')
+    st.write('tên: Tyler Gregory Okonma')
+    st.write('nghệ danh:Tyler,the creator')
+    st.write('Tyler The Creator, tên thật là Tyler Gregory Okonma, là một rapper, producer, và nghệ sĩ đa ngành người Mỹ. Anh nổi tiếng với phong cách âm nhạc độc đáo, phá cách, kết hợp giữa hip-hop, alternative và jazz, cùng khả năng sáng tác cực đỉnh.
 
-quiz = ['Họ và tên:', 'Ngày tháng năm sinh:', 'Sở thích:']
-len_quiz = len(quiz)
+Bắt đầu nổi lên cùng nhóm nhạc Odd Future, Tyler nhanh chóng xây dựng tên tuổi cá nhân qua các album như Goblin, Wolf, Flower Boy, và đặc biệt là Igor – album đoạt giải Grammy. Không chỉ làm nhạc, Tyler còn tham gia thiết kế thời trang và đạo diễn video ca nhạc, tạo nên phong cách riêng biệt, đầy màu sắc và cá tính.
 
-# Initialize session state for answers
-if 'answers' not in st.session_state:
-    st.session_state.answers = ['', '', '']
-
-# Create input fields and store answers
-for i in range(len_quiz):
-    st.session_state.answers[i] = st.text_input(quiz[i], st.session_state.answers[i])
-
-# Count filled answers
-filled_answers = sum(1 for answer in st.session_state.answers if answer.strip() != '')
-
-# Update progress bar
-my_bar = st.progress(filled_answers / len_quiz)
-
-if st.button('Confirm'):
-    if filled_answers == len_quiz:
-        my_bar.progress(1.0)
-        st.write('Bạn đã hoàn thành đầy đủ thông tin!')
-        st.balloons()
-        
-        # Display all answers
-        st.write("### Thông tin của bạn:")
-        for i in range(len_quiz):
-            st.write(f"**{quiz[i]}** {st.session_state.answers[i]}")
-    else:
-        st.write('Bạn chưa hoàn thành đầy đủ thông tin!')
-        st.write(f'Đã điền: {filled_answers}/{len_quiz} câu')
-
-if st.button('Reset'):
-    st.session_state.answers = ['', '', '']
-    st.rerun()
+Với sự sáng tạo không ngừng, Tyler The Creator là biểu tượng của giới trẻ yêu âm nhạc độc lập và nghệ thuật phá cách.')
+    st.title('Bài hát yêu thích')
+    st.write('Answer')
+    audio=open('Answer - Tyler, The Creator.mp3','rb')
+    st.audio(audio,format='audio/mp3')
+    st.write('New magic wand')
+    audio=open('Tyler, The Creator - NEW MAGIC WAND (feat. Santigold & Jessy Wilson)','rb')
+    st.audio(audio,format='audio/mp3
+    st.write('Sweet/I thought you wanted to dance')
+    audio=open('SWEET - I THOUGHT YOU WANTED TO DANCE(Audio).mp3','rb')
+    st.audio(audio,format='audio/mp3')
+    st.write('Take your mask off')
+    
+    
+    
+    
