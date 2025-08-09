@@ -33,7 +33,7 @@ st.write('Like Him')
 audio = open('Like Him.mp3', 'rb')
 st.audio(audio, format='audio/mp3')
 
-st.write('Glitter(')
+st.write('Glitter')
 audio = open('Glitter.mp3', 'rb')
 st.audio(audio, format='audio/mp3')
 
