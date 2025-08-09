@@ -41,7 +41,7 @@ st.write('Ring Ring Ring')
 audio = open('Ring Ring Ring.mp3', 'rb')
 st.audio(audio, format='audio/mp3')
 
-st.write('Are we still friend')
+st.write('Are we still friends')
 audio = open('Tyler, The Creator - ARE WE STILL FRIENDS-.mp3', 'rb')
 st.audio(audio, format='audio/mp3')
 
@@ -71,7 +71,7 @@ st.write('A boy is a gun(2019)')
 video = 'https://www.youtube.com/watch?v=9JQDPjpfiGw&list=RD9JQDPjpfiGw&start_radio=1'
 st.video(video)
 # ALBUM YÊU THÍCH
-st.title('Album yêu thích')
+st.title('Một số album nổi tiếng')
 
 st.write('Album Flower Boy (2017)')
 st.markdown(' link=https://open.spotify.com/album/2nkto6YNI4rUYTLqEwWJ3o', unsafe_allow_html=True)
