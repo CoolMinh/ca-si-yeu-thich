@@ -9,17 +9,21 @@ with st.sidebar:
     st.write("""
 TYLER, THE CREATOR
 
-Sự nghiệp của Tyler, the Creator là một hành trình lột xác đầy ngoạn mục, từ một rapper nổi loạn gây tranh cãi cho đến một nghệ sĩ được giới phê bình nể trọng và giành nhiều giải Grammy danh giá.
+Sự nghiệp của Tyler, The Creator là một hành trình lột xác đầy ngoạn mục, từ một rapper nổi loạn gây tranh cãi cho đến một nghệ sĩ được giới phê bình nể trọng và giành nhiều giải Grammy danh giá.
 
-Tyler bắt đầu sự nghiệp với vai trò thủ lĩnh của nhóm nhạc hip-hop Odd Future. Giai đoạn này được định hình bởi những album đầu tay như Goblin và Wolf. Âm nhạc của anh mang phong cách u ám, lofi, với ca từ gây sốc, thường xuyên đả kích xã hội và truyền thông.
+Tyler bắt đầu sự nghiệp với vai trò thủ lĩnh nhóm hip-hop Odd Future, nổi bật với những album đầu tay như Goblin và Wolf. Giai đoạn này, âm nhạc của anh mang phong cách u ám, lofi, lời rap thẳng thắn, thậm chí gây sốc, thường xuyên đả kích xã hội và truyền thông.
 
-Bước ngoặt lớn nhất đến với album Flower Boy (2017). Tyler đã thay đổi hoàn toàn phong cách, chuyển sang một âm hưởng nhẹ nhàng, giàu cảm xúc hơn với sự pha trộn của soul, jazz và R&B. Album này khám phá những chủ đề sâu lắng như sự cô đơn, tình yêu và việc tìm kiếm bản thân, chứng tỏ Tyler không chỉ là một rapper gây sốc mà còn là một nghệ sĩ có chiều sâu.
+Bước ngoặt lớn nhất đến với album Flower Boy (2017), khi Tyler chuyển sang phong cách nhẹ nhàng, giàu cảm xúc hơn, pha trộn soul, jazz và R&B. Album khám phá những chủ đề sâu sắc như cô đơn, tình yêu và sự tìm kiếm bản thân, khẳng định anh không chỉ là rapper gây sốc mà còn là nghệ sĩ có chiều sâu.
 
-Đỉnh cao nghệ thuật đến với album IGOR (2019). Đây là một sự đột phá hoàn toàn, nơi Tyler tập trung vào hát và sản xuất, tạo nên một câu chuyện tình yêu phức tạp qua một nhân vật hư cấu. Với những giai điệu synth-pop, R&B đầy ma mị và khác lạ, IGOR đã giành giải Grammy Album Rap Xuất sắc nhất, khẳng định vị thế của anh như một nhà sản xuất và nghệ sĩ hàng đầu.
+Đỉnh cao nghệ thuật là IGOR (2019) – một tác phẩm đột phá tập trung vào hát và sản xuất, kể câu chuyện tình yêu phức tạp qua một nhân vật hư cấu. Với giai điệu synth-pop, R&B ma mị và độc đáo, IGOR mang về cho Tyler giải Grammy Album Rap Xuất sắc nhất, nâng tầm anh thành nhà sản xuất và nghệ sĩ hàng đầu.
 
-Với CALL ME IF YOU GET LOST (2021), Tyler trở lại với rap, nhưng là một phiên bản trưởng thành, tự tin hơn bao giờ hết. Album mang phong cách mixtape old-school, kể về hành trình của một "doanh nhân" thành đạt đi khắp thế giới. Album này cũng đã mang về cho anh giải Grammy Album Rap Xuất sắc nhất lần thứ hai.
+Call Me If You Get Lost (2021) đánh dấu sự trở lại với rap trưởng thành, tự tin, theo phong cách mixtape old-school, kể hành trình một “doanh nhân” thành đạt đi khắp thế giới. Album này cũng giúp Tyler giành giải Grammy Album Rap Xuất sắc nhất lần thứ hai.
 
-Tóm lại, Tyler, the Creator là một nghệ sĩ không ngừng thay đổi, không ngại thử nghiệm và luôn biết cách định hình lại bản thân qua mỗi album. Anh không chỉ là một rapper mà còn là một nhà sản xuất tài ba, một đạo diễn MV sáng tạo và một biểu tượng thời trang đầy cá tính.
+Mới đây, Tyler tiếp tục gây ấn tượng với hai album mới: Chromakopia (2024) – một tác phẩm thử nghiệm kết hợp hip-hop, jazz, neo-soul và funk, mang tính tự sự sâu sắc; và Don't Tap the Glass (2025) – album mang âm hưởng dance, house, funk và techno, ngắn gọn nhưng đầy năng lượng, thể hiện sự đa dạng không ngừng trong âm nhạc của Tyler.
+
+Tóm lại, Tyler, The Creator là nghệ sĩ không ngừng thay đổi, thử nghiệm và định hình lại bản thân qua mỗi album. Anh không chỉ là rapper, mà còn là nhà sản xuất tài ba, đạo diễn MV sáng tạo và biểu tượng thời trang cá tính.
+
+
 """)
 
 # BÀI HÁT YÊU THÍCH
