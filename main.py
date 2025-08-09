@@ -29,16 +29,24 @@ Tóm lại, Tyler, The Creator là nghệ sĩ không ngừng thay đổi, thử 
 # BÀI HÁT YÊU THÍCH
 st.title('Bài hát yêu thích')
 
-st.write('Like Him(2024)')
+st.write('Like Him')
 audio = open('Like Him.mp3', 'rb')
 st.audio(audio, format='audio/mp3')
 
-st.write('Glitter(2017)')
+st.write('Glitter(')
 audio = open('Glitter.mp3', 'rb')
 st.audio(audio, format='audio/mp3')
 
-st.write('Ring Ring Ring(2025)')
+st.write('Ring Ring Ring')
 audio = open('Ring Ring Ring.mp3', 'rb')
+st.audio(audio, format='audio/mp3')
+
+st.write('Are we still friend')
+audio = open('Tyler,The creator - ARE WE STILL FRIEND-.mp3', 'rb')
+st.audio(audio, format='audio/mp3')
+
+st.write('Sweet/I thought you wanted to dance')
+audio = open('SWEET - I THOUGHT YOU WANTED TO DANCE (Audio).mp3', 'rb')
 st.audio(audio, format='audio/mp3')
 
 # MV YÊU THÍCH
@@ -55,8 +63,12 @@ st.video(video)
 st.write('Wharf Talk(2023)')
 video = 'https://www.youtube.com/watch?v=27FswS3KESk'
 st.video(video)
+
 st.write('Noid(2024)')
 video = 'https://www.youtube.com/watch?v=Qer3lwd5hyA'
+
+st.write('A boy is a gun(2019)')
+video = 'https://www.youtube.com/watch?v=9JQDPjpfiGw&list=RD9JQDPjpfiGw&start_radio=1'
 st.video(video)
 # ALBUM YÊU THÍCH
 st.title('Album yêu thích')
@@ -76,3 +88,5 @@ st.write('Album Call Me If You Get Lost (2021)')
 st.markdown(' link=https://open.spotify.com/album/1GG6U2SSJPHO6XsFiBzxYv', unsafe_allow_html=True)
 image3 = 'https://i.pinimg.com/1200x/52/b4/9a/52b49ad421bdc5accaf5dd9aaf3d99fc.jpg'
 st.image(image3, caption='Call Me If You Get Lost')
+
+
