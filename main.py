@@ -42,7 +42,7 @@ audio = open('Ring Ring Ring.mp3', 'rb')
 st.audio(audio, format='audio/mp3')
 
 st.write('Are we still friend')
-audio = open('Tyler,The creator - ARE WE STILL FRIEND-.mp3', 'rb')
+audio = open('Tyler, The Creator - ARE WE STILL FRIENDS-.mp3', 'rb')
 st.audio(audio, format='audio/mp3')
 
 st.write('Sweet/I thought you wanted to dance')
@@ -65,8 +65,8 @@ video = 'https://www.youtube.com/watch?v=27FswS3KESk'
 st.video(video)
 
 st.write('Noid(2024)')
-video = 'https://www.youtube.com/watch?v=Qer3lwd5hyA'
-
+video = 'https://www.youtube.com/watch?v=Qer3lwd5hyA&list=RDQer3lwd5hyA&start_radio=1'
+st.video(video)
 st.write('A boy is a gun(2019)')
 video = 'https://www.youtube.com/watch?v=9JQDPjpfiGw&list=RD9JQDPjpfiGw&start_radio=1'
 st.video(video)
