@@ -2,10 +2,15 @@ import streamlit as st
 
 # SIDEBAR
 with st.sidebar:
-    image = 'https://media.cnn.com/api/v1/images/stellar/prod/200127063956-tyler-the-creator-grammy.jpg?q=x_3,y_3,h_1684,w_2993,c_crop/h_653,w_1160/f_avif'
+    image = 'https://vi.wikipedia.org/wiki/Tyler,_the_Creator#/media/T%E1%BA%ADp_tin:Tyler_the_Creator_(52163761341)_(cropped).jpg'
     st.image(image, caption='Tyler, The Creator')
     st.write("Tên: Tyler Gregory Okonma")
     st.write("Nghệ danh: Tyler, The Creator")
+    st.write("Ngày sinh: 6/3/1991")
+    st.write('Nghề nghiệp : Rapper,ca sĩ,nhạc sĩ,nhà sản xuất âm nhạc,đạo diễn,diễn viên')
+    st.write('Năm hoạt động:2007–nay')
+    st.write('Thể loại:Alternative hip hop · jazz rap · neo soul · hardcore hip hop · horrorcore (giai đoạn đầu')
+    
     
 st.title("Tyler, The Creator")
 st.write("""
