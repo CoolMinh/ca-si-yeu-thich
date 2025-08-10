@@ -6,7 +6,9 @@ with st.sidebar:
     st.image(image, caption='Tyler, The Creator')
     st.write("Tên: Tyler Gregory Okonma")
     st.write("Nghệ danh: Tyler, The Creator")
-    st.write("""
+    
+st.title("Tyler, The Creator")
+st.write("""
 TYLER, THE CREATOR
 
 Sự nghiệp của Tyler, The Creator là một hành trình lột xác đầy ngoạn mục, từ một rapper nổi loạn gây tranh cãi cho đến một nghệ sĩ được giới phê bình nể trọng và giành nhiều giải Grammy danh giá.
@@ -25,7 +27,6 @@ Tóm lại, Tyler, The Creator là nghệ sĩ không ngừng thay đổi, thử 
 
 
 """)
-
 # BÀI HÁT YÊU THÍCH
 st.title('Bài hát yêu thích')
 
