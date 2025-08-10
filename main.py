@@ -2,7 +2,7 @@ import streamlit as st
 
 # SIDEBAR
 with st.sidebar:
-    image = 'https://vi.wikipedia.org/wiki/Tyler,_the_Creator#/media/T%E1%BA%ADp_tin:Tyler_the_Creator_(52163761341)_(cropped).jpg'
+    image = 'https://i.pinimg.com/736x/fd/33/c9/fd33c95aaafcd29ad3c2038fae69b024.jpg'
     st.image(image, caption='Tyler, The Creator')
     st.write("Tên: Tyler Gregory Okonma")
     st.write("Nghệ danh: Tyler, The Creator")
@@ -32,6 +32,9 @@ Tóm lại, Tyler, The Creator là nghệ sĩ không ngừng thay đổi, thử 
 
 
 """)
+image0 = 'https://i.pinimg.com/736x/e3/56/98/e35698c129bb621dc31bdeafc70dbd5d.jpg'
+st.image(image0, caption='Tyler, The Creator')
+
 # BÀI HÁT YÊU THÍCH
 st.title('Bài hát yêu thích')
 
