@@ -9,7 +9,7 @@ with st.sidebar:
     st.write("Ngày sinh: 6/3/1991")
     st.write('Nghề nghiệp : Rapper,ca sĩ,nhạc sĩ,nhà sản xuất âm nhạc,đạo diễn,diễn viên')
     st.write('Năm hoạt động:2007–nay')
-    st.write('Thể loại:Alternative hip hop · jazz rap · neo soul · hardcore hip hop · horrorcore (giai đoạn đầu')
+    st.write('Thể loại:Alternative hip hop · jazz rap · neo soul · hardcore hip hop · horrorcore (giai đoạn đầu)')
     
     
 st.title("Tyler, The Creator")
